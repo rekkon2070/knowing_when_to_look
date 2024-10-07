@@ -10,7 +10,7 @@ from PIL import Image  # Load img
 # Tokenizer
 spacy_eng = spacy.load("en")
 
-
+# created a vocab class
 class Vocabulary:
     def __init__(self, freq_threshold):
         self.itos = {0: "<PAD>", 1: "<SOS>", 2: "<EOS>", 3: "<UNK>"}

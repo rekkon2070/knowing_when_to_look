@@ -9,6 +9,6 @@ on cpu:
 
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
-### Dataset
+### Dataset - New 2024
 Download COCO Dataset here: [COCO Dataset](http://mscoco.org/)
 # Add updated dataset accordinh to the current year

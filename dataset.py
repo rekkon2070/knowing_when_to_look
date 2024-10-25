@@ -2,7 +2,7 @@
 import os  # when loading file paths
 import pandas as pd  # for lookup in annotation file "captions.txt"
 import spacy  # for tokenizer
-import torch
+import torch # PYTORCH
 from torch.nn.utils.rnn import pad_sequence  # for padding
 from torch.utils.data import DataLoader, Dataset
 from PIL import Image  # Load img
